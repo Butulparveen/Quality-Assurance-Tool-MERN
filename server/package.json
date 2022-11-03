@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "mysql-await": "^2.1.8",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
